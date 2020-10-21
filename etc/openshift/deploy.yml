@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - 
-          image: openshiftacademiaonline/spring-petclinic-dev:latest
+          image: openshiftacademiaonline/spring-petclinic-dev:2.2
           name: java
         
