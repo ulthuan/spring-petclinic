@@ -16,4 +16,12 @@ spec:
         - 
           image: openshiftacademiaonline/spring-petclinic-dev:latest
           name: java
-        
+          resources:
+            limits:
+              cpu: 300m
+              memory: 900Mi
+            requests:
+              cpu: 300m
+              memory: 900Mi
+          
+          
